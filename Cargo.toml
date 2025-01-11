@@ -1,0 +1,14 @@
+[package]
+name = "smart_channel"
+version = "0.1.1"
+edition = "2021"
+license = "MIT"
+description = "A simple channel subscription system"
+repository = "https://github.com/ZivoMartin/AsyncForge/tree/main/smart_channel"
+homepage = "https://github.com/ZivoMartin/AsyncForge/tree/main/smart_channel"
+readme = "README.md"
+keywords = ["async", "channel", "signal", "clone", "multicast"]
+categories = ["concurrency", "data-structures", "asynchronous"]
+
+[dependencies]
+tokio = { version = "1.37.0", features = ["full"] }
